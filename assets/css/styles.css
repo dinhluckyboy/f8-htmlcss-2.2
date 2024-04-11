@@ -1,0 +1,25 @@
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  --primary-color: #10375c;
+  --secondary-color: #2e80ce;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.6rem;
+  font-family: "Sora", sans-serif;
+}
+
+/* common */
+
+.main-content {
+  width: 1170px;
+  max-width: 100%;
+  margin: 0 auto;
+}
