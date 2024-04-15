@@ -132,6 +132,7 @@ header.header .account .login {
   color: #c9d2da;
   font-weight: 300;
   line-height: 28px; /* 175% */
+  white-space: nowrap;
 }
 
 header.header .account a.btn {
@@ -144,5 +145,229 @@ header.header .account a.btn {
   color: #fff;
   font-size: 1.6rem;
   font-style: normal;
+  line-height: 28px; /* 175% */
+}
+
+/* hero  */
+
+.hero {
+  padding: 56px 0 110px;
+  background-color: var(--primary-color);
+}
+
+.hero .container {
+  display: flex;
+}
+
+/* info  */
+.hero .container .info {
+  width: 54%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.hero .info h1.title {
+  width: 82%;
+}
+
+.hero .info p.desc {
+  width: 74%;
+  margin-top: 22px;
+  color: #c9d2da;
+  font-size: 1.8rem;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 30px; /* 166.667% */
+}
+
+.hero .info .contact {
+  margin-top: 38px;
+  display: flex;
+  align-items: center;
+  gap: 38px;
+}
+
+.hero .info .contact p.phone {
+  color: #fff;
+  font-size: 1.8rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 30px; /* 166.667% */
+}
+
+/* img-block  */
+.hero .img-block {
+  display: flex;
+  align-items: center;
+}
+
+.hero .img-block .img-1 {
+  position: relative;
+  width: 330px;
+  height: 540px;
+  object-fit: cover;
+  border-radius: 6px;
+}
+
+.hero .img-block .img-2 {
+  width: 210px;
+  height: 410px;
+  object-fit: cover;
+  border-radius: 6px;
+  margin-left: -6px;
+}
+
+/* services  */
+
+section.services {
+  padding: 170px 0;
+}
+
+section.services h2.title {
+  text-align: center;
+}
+
+section.services p.desc {
+  width: 40%;
+  margin: 0 auto;
+  text-align: center;
+  color: #575f66;
+  font-size: 1.8rem;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 30px; /* 166.667% */
+}
+
+section.services .container {
+  margin-top: 70px;
+  display: flex;
+  gap: 130px;
+}
+
+.services figure img {
+  width: 570px;
+  height: 570px;
+  border-radius: 12px;
+  object-fit: cover;
+}
+
+section.services .list-ser {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+section.services .list-ser .ser {
+  padding: 21px;
+  border-radius: 10px;
+}
+
+section.services .list-ser .ser:hover {
+  box-shadow: 0px 14px 28px 0px rgba(0, 0, 0, 0.05);
+}
+
+section.services .list-ser .ser:hover .icon {
+  background-color: var(--secondary-color);
+}
+
+section.services .list-ser .ser:hover .icon svg {
+  color: #fff;
+}
+
+section.services .list-ser .ser .icon svg {
+  color: #10375c;
+}
+
+section.services .list-ser .ser .icon {
+  margin-right: 19px;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-color: #eff6fd;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+section.services .list-ser .ser .intro {
+  max-width: 75%;
+}
+
+section.services .list-ser .ser .intro p.title {
+  color: #10375c;
+  font-size: 1.8rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+section.services .list-ser .ser .intro p.text {
+  color: #575f66;
+  font-size: 1.6rem;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 28px; /* 175% */
+}
+
+section.services .list-ser a.btn {
+  margin-top: 75px;
+}
+
+/* how it works  */
+
+section.works {
+  padding: 100px 0;
+}
+
+section.works p.desc {
+  margin-top: 18px;
+  width: 40%;
+  color: #575f66;
+  font-size: 1.8rem;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 30px; /* 166.667% */
+}
+
+section.works .container {
+  margin-top: 86px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 30px;
+}
+
+section.works .container .box {
+  padding: 43px 42px;
+  width: calc(33.33% - 20px);
+  border: 16px solid #eaf6ff;
+  border-radius: 4px;
+}
+
+section.works .container .box p.title {
+  margin-top: 18px;
+  color: #10375c;
+  font-size: 2.6rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 36px; /* 138.462% */
+}
+
+section.works .container .box p.text {
+  margin-top: 28px;
+  color: #575f66;
+  font-size: 1.6rem;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 28px; /* 175% */
+}
+
+section.works .container .box a {
+  margin-top: 18px;
+  color: #575f66;
+  font-size: 1.6rem;
+  font-style: normal;
+  font-weight: 300;
   line-height: 28px; /* 175% */
 }
