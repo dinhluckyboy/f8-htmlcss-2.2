@@ -318,6 +318,7 @@ section.services .list-ser a.btn {
 
 section.works {
   padding: 100px 0;
+  background-color: #f6fbff;
 }
 
 section.works p.desc {
@@ -339,10 +340,21 @@ section.works .container {
 }
 
 section.works .container .box {
+  position: relative;
   padding: 43px 42px;
   width: calc(33.33% - 20px);
   border: 16px solid #eaf6ff;
   border-radius: 4px;
+}
+
+section.works .container .box:hover {
+  border-color: var(--secondary-color);
+  top: -16px;
+}
+
+section.works .container .box:hover a {
+  color: var(--secondary-color);
+  font-weight: 400;
 }
 
 section.works .container .box p.title {
@@ -370,4 +382,59 @@ section.works .container .box a {
   font-style: normal;
   font-weight: 300;
   line-height: 28px; /* 175% */
+}
+
+/* feature  */
+
+.feature {
+  padding: 170px 0;
+}
+
+.feature .shine {
+  display: flex;
+}
+
+.feature .shine figure {
+  position: relative;
+  width: 49%;
+  height: 491px;
+  margin-right: 188px;
+}
+
+.feature .shine figure .img-1 {
+  width: 512px;
+  height: 370px;
+  border-radius: 6px;
+  box-shadow: 0px 14px 28px 0px rgba(0, 0, 0, 0.07);
+  object-fit: cover;
+}
+
+.feature .shine figure .img-2 {
+  position: absolute;
+  left: 238px;
+  top: 121px;
+  width: 332px;
+  height: 370px;
+  border-radius: 6px;
+  object-fit: cover;
+}
+
+.feature .shine .info {
+  max-width: 51%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.feature .shine .info p.desc {
+  margin-top: 18px;
+  color: #575f66;
+  font-size: 1.8rem;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 30px; /* 166.667% */
+}
+
+.feature .shine .info a.btn {
+  margin-top: 38px;
 }
