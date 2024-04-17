@@ -543,3 +543,49 @@ section.works .container .box a {
   background-color: var(--secondary-color);
   color: #fff;
 }
+
+/* app  */
+
+.feature .app {
+  padding: 76px 70px;
+  background-color: var(--secondary-color);
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.feature .app figure {
+  width: 43%;
+}
+
+.feature .app figure img {
+  position: absolute;
+  left: 70px;
+  bottom: -0;
+}
+
+.feature .app .info {
+  width: 57%;
+}
+
+.feature .app .info h2.title {
+  width: 84%;
+  color: #fff;
+}
+
+.feature .app .info p.desc {
+  margin-top: 18px;
+  color: #fff;
+  font-size: 1.8rem;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 30px; /* 166.667% */
+}
+
+.feature .app .info .download {
+  margin-top: 38px;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 28px;
+}
