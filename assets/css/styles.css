@@ -386,6 +386,8 @@ section.works .container .box a {
 
 /* feature  */
 
+/* shine  */
+
 .feature {
   padding: 170px 0;
 }
@@ -437,4 +439,107 @@ section.works .container .box a {
 
 .feature .shine .info a.btn {
   margin-top: 38px;
+}
+
+/* virtual dentist  */
+
+.virtual-dentist {
+  padding: 170px 0;
+  text-align: center;
+}
+
+.virtual-dentist a.btn {
+  margin-top: 38px;
+}
+
+.virtual-dentist .list-dentists {
+  margin-top: 70px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.virtual-dentist .list-dentists .dentist {
+  width: calc(25% - 22.5px);
+}
+
+.virtual-dentist .list-dentists .box {
+  position: relative;
+  width: 270px;
+  height: 318px;
+  border-radius: 6px;
+  background: #eaf6ff;
+  overflow: hidden;
+}
+
+.virtual-dentist .list-dentists .dentist-1 .box img.avatar {
+  position: absolute;
+  top: -30px;
+  left: -150px;
+  width: 200%;
+}
+
+.virtual-dentist .list-dentists .dentist-2 .box img.avatar {
+  position: absolute;
+  top: 4px;
+  left: -185px;
+  width: 230%;
+}
+
+.virtual-dentist .list-dentists .dentist-3 .box img.avatar {
+  position: absolute;
+  top: -6px;
+  left: -185px;
+  width: 230%;
+}
+
+.virtual-dentist .list-dentists .dentist-4 .box img.avatar {
+  position: absolute;
+  top: 26px;
+  left: -94px;
+  width: 200%;
+}
+
+.virtual-dentist .list-dentists strong {
+  display: block;
+  margin-top: 12px;
+  color: #10375c;
+  font-size: 1.6rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px; /* 175% */
+}
+
+.virtual-dentist .list-dentists p.text {
+  color: #575f66;
+  font-size: 1.4rem;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 26px; /* 185.714% */
+}
+
+.virtual-dentist .chevron {
+  margin-top: 38px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 18px;
+}
+
+.virtual-dentist .chevron-left,
+.virtual-dentist .chevron-right {
+  width: 36px;
+  height: 36px;
+  border: 1px solid #575f66;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #575f66;
+}
+
+.virtual-dentist .chevron-left:hover,
+.virtual-dentist .chevron-right:hover {
+  border-color: var(--secondary-color);
+  background-color: var(--secondary-color);
+  color: #fff;
 }
