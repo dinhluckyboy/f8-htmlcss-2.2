@@ -14,7 +14,6 @@ html {
 body {
   font-size: 1.6rem;
   font-family: "Sora", sans-serif;
-  height: 10000px;
 }
 
 /* common */
@@ -779,4 +778,143 @@ section.works .container .box a {
 
 .feature section.contact a.btn {
   margin-top: 38px;
+}
+
+/* footer  */
+.footer {
+  padding: 100px 0 42px;
+  background-color: var(--primary-color);
+}
+
+.footer .container {
+  display: flex;
+  gap: 78px;
+  border-bottom: 1px solid #406181;
+}
+
+.footer .container .column ul {
+  margin-bottom: 28px;
+}
+
+.footer .container .column ul li:first-child {
+  margin-top: 0;
+  margin-bottom: 20px;
+  color: #fff;
+  font-family: "Open Sans";
+  font-size: 1.6rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 28px; /* 175% */
+}
+
+.footer .container .column ul li {
+  margin-top: 10px;
+  color: #a9b3bb;
+  font-family: "Open Sans";
+  font-size: 1.4rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px; /* 185.714% */
+}
+
+.footer .column-1 {
+  width: 29%;
+}
+.footer .column-1 p.desc {
+  margin-top: 21px;
+  color: #a9b3bb;
+  font-family: "Open Sans", sans-serif;
+  font-size: 1.6rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px; /* 175% */
+}
+
+.footer .column-2 {
+  width: 12%;
+}
+.footer .column-3 {
+  width: 12%;
+}
+.footer .column-4 {
+  width: 28%;
+}
+
+.footer .column-4 ul:first-child li {
+  display: flex;
+  gap: 10px;
+}
+
+.footer .column-4 .icon {
+  display: inline-block;
+  width: 32px;
+  height: 32px;
+  background-color: #fff;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer .column-4 .icon:hover {
+  background-color: var(--secondary-color);
+}
+.footer .column-4 .icon:hover svg {
+  color: #fff;
+}
+
+.footer .column-4 .icon svg {
+  color: var(--secondary-color);
+}
+
+.footer .column-4 .subscribe {
+  display: flex;
+  gap: 12px;
+}
+
+.footer .column-4 .subscribe input {
+  padding: 10px;
+  width: 212px;
+  height: 46px;
+  border-radius: 4px;
+  border: 1px solid #406181;
+  background-color: var(--primary-color);
+  color: #a9b3bb;
+  font-family: "Open Sans";
+  font-size: 1.4rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px; /* 185.714% */
+}
+
+.footer .column-4 .subscribe input::placeholder {
+  color: #a9b3bb;
+  font-family: "Open Sans";
+  font-size: 1.4rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px; /* 185.714% */
+}
+
+.footer .column-4 .subscribe a.btn {
+  width: 108px;
+  height: 46px;
+  border-radius: 4px;
+  color: #fff;
+  font-family: "Open Sans";
+  font-size: 1.4rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 26px; /* 185.714% */
+}
+
+p.copyright {
+  margin-top: 28px;
+  color: #aab3ba;
+  text-align: center;
+  font-family: "Open Sans";
+  font-size: 1.4rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px; /* 185.714% */
 }
