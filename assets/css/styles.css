@@ -20,7 +20,7 @@ body {
 
 .main-content {
   width: 1170px;
-  max-width: 100%;
+  max-width: calc(100% - 170px);
   margin: 0 auto;
 }
 
@@ -245,6 +245,7 @@ section.services h2.title {
 section.services p.desc {
   width: 40%;
   margin: 0 auto;
+  margin-top: 18px;
   text-align: center;
   color: #575f66;
   font-size: 1.8rem;

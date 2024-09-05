@@ -82,6 +82,7 @@
     <link rel="stylesheet" href="./assets/css/reset.css" />
     <!-- styles css  -->
     <link rel="stylesheet" href="./assets/css/styles.css" />
+    <link rel="stylesheet" href="./assets/css/responsive.css" />
     <!-- fonts  -->
     <!-- poppin font  -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -109,11 +110,23 @@
     <!-- header  -->
     <header class="header sticky">
       <div class="main-content">
-        <section class="container">
+        <div class="container">
+          <label for="check-bars" class="bars-mobile hide-on-pc">
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              viewBox="0 0 448 512"
+              fill="currentColor"
+            >
+              <!--!Font Awesome Free 6.6.0 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2024 Fonticons, Inc.-->
+              <path
+                d="M0 96C0 78.3 14.3 64 32 64l384 0c17.7 0 32 14.3 32 32s-14.3 32-32 32L32 128C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32l384 0c17.7 0 32 14.3 32 32s-14.3 32-32 32L32 288c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32L32 448c-17.7 0-32-14.3-32-32s14.3-32 32-32l384 0c17.7 0 32 14.3 32 32z"
+              />
+            </svg>
+          </label>
           <div class="logo">
             <a href="#!"><img src="./assets/img/Logo.svg" alt="logo" /></a>
           </div>
-          <nav>
+          <nav class="hide-on-tablet-mobile">
             <ul>
               <li class="active"><a href="#!">Home</a></li>
               <li><a href="#!">Services</a></li>
@@ -121,11 +134,37 @@
               <li><a href="#!">Doctors</a></li>
             </ul>
           </nav>
-          <div class="account">
+          <div class="account hide-on-mobile">
             <a href="#!" class="login">Log In</a>
             <a href="" class="btn sign-up">Sign Up</a>
           </div>
-        </section>
+        </div>
+      </div>
+    </header>
+
+    <!-- mobile header  -->
+    <header class="mobile-header hide-on-pc">
+      <input
+        type="checkbox"
+        name="check-bars"
+        id="check-bars"
+        class="check-bars"
+        hidden
+      />
+      <label for="check-bars" class="menu-overlay"></label>
+      <div class="menu-drawer">
+        <nav class="nav-mobile">
+          <ul>
+            <li class="active"><a href="#!">Home</a></li>
+            <li><a href="#!">Services</a></li>
+            <li><a href="#!">About</a></li>
+            <li><a href="#!">Doctors</a></li>
+          </ul>
+          <div class="account hide-on-tablet">
+            <a href="#!" class="login">Log In</a>
+            <a href="" class="btn sign-up">Sign Up</a>
+          </div>
+        </nav>
       </div>
     </header>
     <main>
